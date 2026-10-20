@@ -337,6 +337,7 @@ Para probar el aspecto en el móvil desde el ordenador, abre las herramientas de
 - **Todas las rutas de la web son relativas** (`css/estilos.css`, `img/...`, `carta/carta.pdf`), así que funciona igual dentro de la subcarpeta `/la-cocinita/` que con un dominio propio en la raíz.
 - Límites de GitHub Pages: el repositorio debe ser público (en la cuenta gratuita), con menos de 1 GB y unos 100 GB de tráfico al mes. Para un restaurante sobra.
 - Si un cambio no se ve, recarga la página forzando la caché (Ctrl+F5 en el ordenador; en el móvil, cierra y abre la pestaña). En la carta, cambia `carta.version`.
+- **Caché de estilos y scripts:** GitHub Pages deja que los navegadores guarden los archivos unos 10 minutos. Por eso las páginas cargan `css/estilos.css?v=1.0.1` y `js/...js?v=1.0.1`. Si cambias el CSS o algún JS, sube ese número (por ejemplo a `1.0.2`) en las cinco páginas `.html`, para que todo el mundo reciba la versión nueva al momento. Con "Buscar y reemplazar en todos los archivos" de VS Code se hace de una vez. Los cambios en `i18n/*.json` no lo necesitan, porque se piden siempre sin caché.
 
 ---
 
