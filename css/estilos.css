@@ -63,6 +63,7 @@ body {
 /* Mientras se cargan los textos se ocultan para evitar parpadeos. */
 html.i18n-cargando main, html.i18n-cargando .site-footer { visibility: hidden; }
 
+[hidden] { display: none !important; }
 img, svg, canvas { max-width: 100%; display: block; }
 img { height: auto; }
 
@@ -384,6 +385,7 @@ a:hover { color: var(--granate-oscuro); }
 }
 @keyframes girar { to { transform: rotate(360deg); } }
 @media (min-width: 768px) { .visor__pista { display: none; } }
+@media (max-width: 479px) { .visor__barra { justify-content: center; } }
 
 /* 10. TEASER SERVICIO EN MESA ------------------------------------------------- */
 .servicio-teaser {
@@ -527,7 +529,7 @@ a:hover { color: var(--granate-oscuro); }
 }
 .site-footer a { color: #f3e7d6; }
 .site-footer a:hover { color: var(--ocre); }
-.pie { display: grid; gap: 2rem; padding: 3rem 0 2rem; }
+.pie { display: grid; gap: 2rem; padding-top: 3rem; padding-bottom: 2rem; }
 .pie .logo { font-size: 1.7rem; margin-bottom: .6rem; }
 .pie h2 { font-family: var(--fuente-texto); font-size: .85rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ocre); margin-bottom: .8rem; }
 .pie ul { list-style: none; margin: 0; padding: 0; }
