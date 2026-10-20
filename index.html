@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="es" class="i18n-cargando">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Cocinita · Cocina tradicional española en Madrid</title>
+  <meta name="description" content="Casa de comidas en Madrid: cocido madrileño, guisos de cuchara, croquetas caseras y postres de siempre. Consulta la carta, el horario y reserva por teléfono o WhatsApp.">
+  <meta name="theme-color" content="#1d4a37">
+
+  <!-- SEO: dirección canónica y versiones por idioma [EDITAR si cambias de dominio] -->
+  <link rel="canonical" href="https://deivdonis.github.io/la-cocinita/">
+  <link rel="alternate" hreflang="es" href="https://deivdonis.github.io/la-cocinita/?lang=es">
+  <link rel="alternate" hreflang="en" href="https://deivdonis.github.io/la-cocinita/?lang=en">
+  <link rel="alternate" hreflang="x-default" href="https://deivdonis.github.io/la-cocinita/">
+
+  <!-- Open Graph (vista previa al compartir en WhatsApp, Facebook...) -->
+  <meta property="og:type" content="restaurant">
+  <meta property="og:site_name" content="La Cocinita">
+  <meta property="og:title" content="La Cocinita · Cocina tradicional española en Madrid">
+  <meta property="og:description" content="Casa de comidas en Madrid: cocido madrileño, guisos de cuchara, croquetas caseras y postres de siempre.">
+  <meta property="og:url" content="https://deivdonis.github.io/la-cocinita/">
+  <meta property="og:image" content="https://deivdonis.github.io/la-cocinita/img/og-imagen.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalam:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="img/hero-comedor.jpg" as="image">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body data-pagina="home">
+  <a class="skip-link" href="#contenido" data-i18n="a11y.skip">Saltar al contenido</a>
+  <noscript><p style="padding:1rem;background:#fff6dd;text-align:center">Esta web necesita JavaScript para mostrar sus textos. / This website needs JavaScript.</p></noscript>
+
+  <div id="cabecera"></div>
+
+  <main id="contenido">
+
+    <!-- 1. INICIO ========================================================= -->
+    <section id="inicio" class="hero" aria-labelledby="titulo-inicio">
+      <img class="hero__imagen" src="img/hero-comedor.jpg" alt="" data-i18n-attr="alt:hero.imgAlt" width="1600" height="1000" fetchpriority="high">
+      <div class="contenedor hero__contenido">
+        <p class="hero__antetitulo" data-i18n="hero.kicker"></p>
+        <h1 id="titulo-inicio">La Cocinita</h1>
+        <svg class="hero__adorno" viewBox="0 0 120 14" aria-hidden="true"><path d="M2 7h44M74 7h44" stroke="currentColor" stroke-width="1.5"/><path d="M60 1l6 6-6 6-6-6z" fill="currentColor"/><circle cx="50" cy="7" r="1.6" fill="currentColor"/><circle cx="70" cy="7" r="1.6" fill="currentColor"/></svg>
+        <p class="hero__lema" data-i18n="hero.lead"></p>
+        <div class="fila-botones fila-botones--centro">
+          <a class="btn btn--claro btn--grande" href="#carta"><span data-icono="carta"></span><span data-i18n="hero.ctaMenu"></span></a>
+          <a class="btn btn--granate btn--grande" href="#reservas" data-tel><span data-icono="telefono"></span><span data-i18n="hero.ctaCall"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SOBRE NOSOTROS ================================================= -->
+    <section id="nosotros" class="seccion" aria-labelledby="titulo-nosotros">
+      <div class="contenedor">
+        <div class="nosotros">
+          <div class="nosotros__foto">
+            <img src="img/nosotros-cocina.jpg" alt="" data-i18n-attr="alt:about.imgAlt" width="1000" height="1200" loading="lazy">
+          </div>
+          <div class="nosotros__texto">
+            <p class="antetitulo" data-i18n="about.eyebrow"></p>
+            <h2 id="titulo-nosotros" data-i18n="about.title"></h2>
+            <p data-i18n="about.p1"></p>
+            <p data-i18n="about.p2"></p>
+            <p data-i18n="about.p3"></p>
+            <ul class="valores">
+              <li><span class="valores__icono"><span data-icono="cesta"></span></span><div><strong data-i18n="about.values.v1t"></strong><span data-i18n="about.values.v1d"></span></div></li>
+              <li><span class="valores__icono"><span data-icono="llama"></span></span><div><strong data-i18n="about.values.v2t"></strong><span data-i18n="about.values.v2d"></span></div></li>
+              <li><span class="valores__icono"><span data-icono="casa"></span></span><div><strong data-i18n="about.values.v3t"></strong><span data-i18n="about.values.v3d"></span></div></li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="pizarra" aria-labelledby="titulo-pizarra">
+          <h3 id="titulo-pizarra" data-i18n="daily.title"></h3>
+          <p class="pizarra__cuando" data-i18n="daily.when"></p>
+          <span class="pizarra__precio" data-i18n="daily.price"></span>
+          <p class="pizarra__incluye" data-i18n="daily.includes"></p>
+          <p class="pizarra__nota" data-i18n="daily.note"></p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 3. LA CARTA (PDF) ================================================== -->
+    <section id="carta" class="seccion seccion--alterna" aria-labelledby="titulo-carta">
+      <div class="contenedor">
+        <header class="seccion__cabecera">
+          <p class="antetitulo" data-i18n="menu.eyebrow"></p>
+          <h2 id="titulo-carta" data-i18n="menu.title"></h2>
+          <p data-i18n="menu.lead"></p>
+        </header>
+
+        <div class="visor" data-visor-carta role="region" data-i18n-attr="aria-label:menu.viewerLabel">
+          <div class="visor__barra" hidden>
+            <div class="visor__grupo">
+              <button type="button" class="btn-icono" data-accion="anterior" data-i18n-attr="aria-label:menu.prev;title:menu.prev"><span data-icono="izquierda"></span></button>
+              <span class="visor__pagina" aria-live="polite"></span>
+              <button type="button" class="btn-icono" data-accion="siguiente" data-i18n-attr="aria-label:menu.next;title:menu.next"><span data-icono="derecha"></span></button>
+            </div>
+            <div class="visor__grupo">
+              <button type="button" class="btn-icono" data-accion="menos" data-i18n-attr="aria-label:menu.zoomOut;title:menu.zoomOut"><span data-icono="menos"></span></button>
+              <button type="button" class="btn-icono" data-accion="ajustar" data-i18n-attr="aria-label:menu.fit;title:menu.fit"><span data-icono="ajustar"></span></button>
+              <button type="button" class="btn-icono" data-accion="mas" data-i18n-attr="aria-label:menu.zoomIn;title:menu.zoomIn"><span data-icono="mas"></span></button>
+            </div>
+          </div>
+          <div class="visor__lienzo" tabindex="0" data-i18n-attr="aria-label:menu.viewerLabel"></div>
+          <div class="visor__pie">
+            <p class="visor__pista" data-i18n="menu.swipeHint"></p>
+            <a class="btn btn--contorno" data-descargar-carta href="carta/carta.pdf"><span data-icono="descargar"></span><span data-i18n="menu.download"></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SERVICIO EN MESA (resumen; la explicación está en servicio.html) == -->
+    <section id="servicio" class="seccion" aria-labelledby="titulo-servicio">
+      <div class="contenedor">
+        <div class="servicio-teaser">
+          <div class="servicio-teaser__icono"><span data-icono="qr"></span></div>
+          <div>
+            <p class="antetitulo" data-i18n="serviceTeaser.eyebrow"></p>
+            <h2 id="titulo-servicio" data-i18n="serviceTeaser.title"></h2>
+            <p data-i18n="serviceTeaser.lead"></p>
+          </div>
+          <a class="btn btn--claro" href="servicio.html"><span data-i18n="serviceTeaser.cta"></span><span data-icono="flecha"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GALERÍA ========================================================= -->
+    <section id="galeria" class="seccion seccion--alterna" aria-labelledby="titulo-galeria">
+      <div class="contenedor">
+        <header class="seccion__cabecera">
+          <p class="antetitulo" data-i18n="gallery.eyebrow"></p>
+          <h2 id="titulo-galeria" data-i18n="gallery.title"></h2>
+          <p data-i18n="gallery.lead"></p>
+        </header>
+        <ul class="galeria" data-galeria></ul>
+      </div>
+    </section>
+
+    <dialog class="lightbox" data-i18n-attr="aria-label:lightbox.label">
+      <figure>
+        <img src="" alt="">
+        <figcaption><span data-pie-foto></span><span class="lightbox__contador"></span></figcaption>
+      </figure>
+      <button type="button" class="btn-icono lightbox__cerrar" data-i18n-attr="aria-label:lightbox.close;title:lightbox.close"><span data-icono="cerrar"></span></button>
+      <button type="button" class="btn-icono lightbox__anterior" data-i18n-attr="aria-label:lightbox.prev;title:lightbox.prev"><span data-icono="izquierda"></span></button>
+      <button type="button" class="btn-icono lightbox__siguiente" data-i18n-attr="aria-label:lightbox.next;title:lightbox.next"><span data-icono="derecha"></span></button>
+    </dialog>
+
+    <!-- 6. HORARIO ========================================================= -->
+    <section id="horario" class="seccion" aria-labelledby="titulo-horario">
+      <div class="contenedor">
+        <header class="seccion__cabecera">
+          <p class="antetitulo" data-i18n="hours.eyebrow"></p>
+          <h2 id="titulo-horario" data-i18n="hours.title"></h2>
+          <p data-i18n="hours.lead"></p>
+        </header>
+        <div class="horario mantel">
+          <table class="horario__tabla">
+            <caption class="sr-only" data-i18n="hours.title"></caption>
+            <tbody data-horario></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. UBICACIÓN ======================================================= -->
+    <section id="ubicacion" class="seccion seccion--alterna" aria-labelledby="titulo-ubicacion">
+      <div class="contenedor">
+        <header class="seccion__cabecera">
+          <p class="antetitulo" data-i18n="location.eyebrow"></p>
+          <h2 id="titulo-ubicacion" data-i18n="location.title"></h2>
+          <p data-i18n="location.lead"></p>
+        </header>
+        <div class="ubicacion">
+          <div class="ubicacion__datos">
+            <h3 data-i18n="location.addressLabel"></h3>
+            <address class="ubicacion__direccion" data-direccion></address>
+            <p class="ubicacion__transporte"><span data-icono="metro"></span><span data-i18n="location.transport"></span></p>
+            <a class="btn btn--primario" data-maps-link href="https://www.google.com/maps"><span data-icono="pin"></span><span data-i18n="location.openMaps"></span></a>
+          </div>
+          <div class="mapa" data-mapa>
+            <div class="mapa__aviso">
+              <p data-i18n="location.mapPlaceholder"></p>
+              <div class="fila-botones">
+                <a class="btn btn--primario" data-maps-link href="https://www.google.com/maps"><span data-icono="externo"></span><span data-i18n="location.openMaps"></span></a>
+                <button type="button" class="btn btn--contorno" data-cargar-mapa data-i18n="location.loadMap"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. RESERVAS (solo teléfono y WhatsApp) =============================== -->
+    <section id="reservas" class="seccion reservas" aria-labelledby="titulo-reservas">
+      <div class="contenedor">
+        <p class="antetitulo" data-i18n="book.eyebrow"></p>
+        <h2 id="titulo-reservas" data-i18n="book.title"></h2>
+        <p data-i18n="book.lead"></p>
+        <a class="reservas__telefono" data-tel data-telefono-texto href="#reservas"></a>
+        <div class="fila-botones fila-botones--centro">
+          <a class="btn btn--claro btn--grande" data-tel href="#reservas"><span data-icono="telefono"></span><span data-i18n="book.callShort"></span></a>
+          <a class="btn btn--whatsapp btn--grande" data-wa href="#reservas"><span data-icono="whatsapp"></span><span data-i18n="book.whatsapp"></span></a>
+        </div>
+        <p class="reservas__nota" data-i18n="book.note"></p>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="pie"></div>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/layout.js" defer></script>
+  <script src="js/cookies.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/carta.js" defer></script>
+</body>
+</html>

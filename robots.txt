@@ -1,0 +1,6 @@
+# La Cocinita · robots.txt
+# [EDITAR] Si conectas un dominio propio, cambia la URL del sitemap.
+User-agent: *
+Allow: /
+
+Sitemap: https://deivdonis.github.io/la-cocinita/sitemap.xml

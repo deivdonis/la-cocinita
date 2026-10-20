@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página no encontrada · La Cocinita</title>
+  <meta name="robots" content="noindex">
+  <style>
+    body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:16px;font-family:"Segoe UI",Roboto,Arial,sans-serif;background:#f8f5ee;color:#26211d;text-align:center}
+    h1{font-family:Georgia,serif;font-weight:400;color:#12301f;font-size:2.4rem;margin:0 0 .4em}
+    a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.7rem 1.4rem;line-height:1.2;border-radius:999px;background:#1d4a37;color:#fff;font-weight:700;text-decoration:none}
+    a:focus-visible{outline:3px solid #d8a440;outline-offset:3px}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Esta página no existe</h1>
+    <p>This page does not exist.</p>
+    <p><a id="volver" href="./">Volver a La Cocinita · Back to La Cocinita</a></p>
+  </main>
+  <script>
+    // Funciona tanto en /la-cocinita/ (GitHub Pages) como con dominio propio
+    var base = location.pathname.indexOf("/la-cocinita/") === 0 ? "/la-cocinita/" : "/";
+    document.getElementById("volver").href = base;
+  </script>
+</body>
+</html>

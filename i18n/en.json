@@ -1,0 +1,254 @@
+{
+  "_info": "English texts. {{...}} is filled in with the data from js/config.js.",
+
+  "meta": {
+    "home": {
+      "title": "La Cocinita · Traditional Spanish cooking in Madrid",
+      "description": "A traditional eating house in Madrid: cocido madrileño, slow-cooked stews, homemade croquettes and classic desserts. See the menu and opening hours, and book by phone or WhatsApp."
+    },
+    "service": {
+      "title": "How our table service works · La Cocinita",
+      "description": "Scan the QR code on your table to call the waiter, see the menu, send requests or ask for the bill from your phone, with nothing to install."
+    },
+    "legal": {
+      "title": "Legal notice · La Cocinita",
+      "description": "Legal notice and owner information for the La Cocinita website."
+    },
+    "privacy": {
+      "title": "Privacy policy · La Cocinita",
+      "description": "How La Cocinita processes personal data under the GDPR."
+    },
+    "cookies": {
+      "title": "Cookie policy · La Cocinita",
+      "description": "Which cookies and local storage the La Cocinita website uses and how to manage them."
+    }
+  },
+
+  "a11y": {
+    "skip": "Skip to content",
+    "newWindow": "(opens in a new window)"
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "menu": "Menu",
+    "service": "Table service",
+    "gallery": "Gallery",
+    "hours": "Opening hours",
+    "location": "Location",
+    "book": "Book",
+    "open": "Open menu",
+    "close": "Close menu",
+    "lang": "Language",
+    "main": "Main navigation"
+  },
+
+  "hero": {
+    "kicker": "Traditional eating house · Madrid",
+    "lead": "Traditional Spanish cooking, slow-cooked just like at home. Hearty stews, fresh market produce and long, unhurried meals.",
+    "ctaMenu": "See the menu",
+    "ctaCall": "Book by phone",
+    "imgAlt": "La Cocinita dining room with tables laid with checked tablecloths"
+  },
+
+  "about": {
+    "eyebrow": "About us",
+    "title": "Cooking with time-honoured recipes",
+    "p1": "La Cocinita was born in a small space in Madrid de los Austrias with a simple idea: to cook the way our grandmothers did. Chickpeas are soaked the night before, the sofrito is never rushed and our stews are made in clay pots.",
+    "p2": "We shop at the market every morning and work with producers from Madrid and the surrounding area. The menu changes with the seasons, but some dishes never change: Wednesday's cocido, the ham croquettes and our house torrija.",
+    "p3": "We are a neighbourhood eating house: checked tablecloths, tiled walls and friendly service. Come hungry and leave your watch at home.",
+    "imgAlt": "Clay pot on the stove in La Cocinita's kitchen",
+    "values": {
+      "v1t": "Market produce",
+      "v1d": "We shop every day and cook with the seasons.",
+      "v2t": "Slow cooking",
+      "v2d": "Stews and stocks made with time, no shortcuts.",
+      "v3t": "Homely service",
+      "v3d": "A neighbourhood dining room where everyone feels at home."
+    }
+  },
+
+  "daily": {
+    "title": "Menu of the day",
+    "when": "Tuesday to Friday, lunchtime",
+    "includes": "Starter, main course, dessert, bread and a drink",
+    "price": "{{menuDelDia.precio}}",
+    "note": "Ask about today's dishes"
+  },
+
+  "menu": {
+    "eyebrow": "The menu",
+    "title": "Our menu",
+    "lead": "Browse the full menu right here. You can turn the pages, zoom in and download it.",
+    "prev": "Previous page",
+    "next": "Next page",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "fit": "Fit to width",
+    "page": "Page {{n}} of {{total}}",
+    "download": "Download menu",
+    "loading": "Loading the menu…",
+    "soon": "Menu coming soon",
+    "soonDetail": "In the meantime, give us a call and we'll tell you today's dishes.",
+    "error": "The menu could not be displayed here.",
+    "openPdf": "Open the menu as a PDF",
+    "viewerLabel": "PDF menu viewer",
+    "swipeHint": "Swipe to turn the page"
+  },
+
+  "serviceTeaser": {
+    "eyebrow": "At the restaurant",
+    "title": "Order from your table with your phone",
+    "lead": "Scan the QR code on your table to call the waiter, see the menu, send requests or ask for the bill. Nothing to download, and our traditional service is always there if you prefer.",
+    "cta": "How table service works"
+  },
+
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "A taste of what awaits",
+    "lead": "Some of our dishes and favourite corners. Tap a photo to enlarge it.",
+    "open": "Enlarge photo: ",
+    "alt": {
+      "cocido": "Cocido madrileño served in two courses",
+      "croquetas": "Homemade Iberian ham croquettes",
+      "tortilla": "Freshly made, juicy Spanish potato omelette",
+      "comedor": "Traditional dining room with tiles and wooden tables",
+      "callos": "Madrid-style tripe stew in a clay pot",
+      "torrija": "Homemade torrija with cinnamon"
+    }
+  },
+
+  "lightbox": {
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "counter": "{{n}} of {{total}}",
+    "label": "Enlarged photo"
+  },
+
+  "hours": {
+    "eyebrow": "Opening hours",
+    "title": "When to find us",
+    "lead": "The kitchen closes half an hour before the dining room.",
+    "closed": "Closed",
+    "today": "Today",
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    }
+  },
+
+  "location": {
+    "eyebrow": "Location",
+    "title": "Where we are",
+    "lead": "In the heart of La Latina, a five-minute walk from Plaza Mayor.",
+    "addressLabel": "Address",
+    "transport": "Metro La Latina (L5) · Buses 17, 18, 23, 31, 35, 50 and 65",
+    "mapPlaceholder": "The Google Maps map only loads if you accept third-party cookies.",
+    "openMaps": "View on Google Maps",
+    "loadMap": "Accept and load the map",
+    "mapTitle": "Map showing the location of La Cocinita"
+  },
+
+  "book": {
+    "eyebrow": "Bookings",
+    "title": "Book your table",
+    "lead": "Bookings are by phone or WhatsApp only. We'll confirm straight away.",
+    "call": "Call {{contacto.telefono}}",
+    "callShort": "Call",
+    "whatsapp": "Message us on WhatsApp",
+    "waMessage": "Hello, I'd like to book a table at La Cocinita for ___ people on ___ at ___.",
+    "note": "For groups of more than 10, please call us a few days in advance."
+  },
+
+  "footer": {
+    "tagline": "Traditional Spanish cooking in the heart of Madrid.",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "legalNav": "Legal information",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie policy",
+    "cookieSettings": "Cookie settings",
+    "rights": "All rights reserved."
+  },
+
+  "cookies": {
+    "title": "We use cookies",
+    "text": "This website only uses the essential technical storage needed to remember your language and your cookie choice. If you accept, we will also load the Google Maps map, which may set third-party cookies.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "configure": "Settings",
+    "save": "Save preferences",
+    "policy": "More information in our Cookie policy",
+    "panelTitle": "Cookie settings",
+    "necessary": "Technical (always active)",
+    "necessaryDesc": "They store your language and cookie preferences in this browser. They are not sent to anyone.",
+    "maps": "Third-party maps (Google Maps)",
+    "mapsDesc": "They allow the interactive map to be shown on the page. Google may use its own cookies for this."
+  },
+
+  "service": {
+    "eyebrow": "Table service",
+    "title": "How our table service works",
+    "lead": "At La Cocinita you can use your phone to reach our dining room team without raising your hand. It's very easy, free, and there's nothing to install.",
+    "onlyInside": "The app only works inside the restaurant, connected to our Wi-Fi. There are no links or downloads on this website.",
+    "stepLabel": "Step",
+    "step1t": "Connect to the restaurant's Wi-Fi",
+    "step1d": "You'll find the network name and password on the card on your table. If you can't see it, just ask your waiter.",
+    "step2t": "Scan your table's QR code",
+    "step2d": "Open your phone's camera and point it at the QR code. Each table has its own, so we know where you are.",
+    "step3t": "The restaurant's app opens",
+    "step3d": "It opens straight in your phone's browser. No downloads and no accounts needed.",
+    "step4t": "Ask for whatever you need",
+    "step4d": "Call the waiter, browse the menu, send messages or requests by typing or by voice, and ask for the bill whenever you like.",
+    "step5t": "Your waiter is notified instantly",
+    "step5d": "Your request reaches the dining room team immediately, and they will come to your table as soon as they can.",
+    "featuresTitle": "From the app you can…",
+    "f1": "Call the waiter",
+    "f2": "See the menu",
+    "f3": "Send messages or requests, by typing or by voice",
+    "f4": "Ask for the bill",
+    "faqTitle": "Frequently asked questions",
+    "q1": "Do I need to download anything?",
+    "a1": "No. The app opens in your phone's browser when you scan the QR code. There's nothing to install and no need to sign up.",
+    "q2": "Do I have to use it?",
+    "a2": "Not at all. It's just an extra convenience. You can call the waiter as usual and you'll be looked after just as well.",
+    "q3": "Is my data safe?",
+    "a3": "Yes. We don't ask for your name, phone number or any personal details. Requests are only used to serve your table during your visit, and the app runs on the restaurant's own network.",
+    "q4": "What if I don't have a phone, or it doesn't work?",
+    "a4": "No problem: traditional service is always available. Our dining room team will look after your table just like any other.",
+    "q5": "Can I order my food from the app?",
+    "a5": "You can browse the menu and send requests, and the waiter will come to your table to take your order and offer advice.",
+    "back": "Back to home",
+    "ctaTitle": "Shall we save you a table?",
+    "ctaText": "Book by phone or WhatsApp."
+  },
+
+  "common": {
+    "backHome": "Back to home",
+    "updated": "Last updated: {{legal.actualizado}}",
+    "noscript": "This website needs JavaScript to show its content. Please enable it in your browser or call us on {{contacto.telefono}}."
+  },
+
+  "legal": {
+    "aviso": {
+      "title": "Legal notice",
+      "html": "<p class=\"legal-note\">This English version is provided for information only. In case of discrepancy, the Spanish version prevails.</p><h2>1. Owner information</h2><p>In compliance with Spanish Law 34/2002 of 11 July on Information Society Services and Electronic Commerce (LSSI-CE), the owner of this website is:</p><ul><li><strong>Owner:</strong> {{legal.titular}}</li><li><strong>Tax ID (NIF/CIF):</strong> {{legal.nif}}</li><li><strong>Address:</strong> {{legal.domicilio}}</li><li><strong>Email:</strong> {{legal.email}}</li><li><strong>Phone:</strong> {{contacto.telefono}}</li><li><strong>Registration details:</strong> {{legal.registro}}</li><li><strong>Trading name:</strong> La Cocinita</li></ul><h2>2. Purpose</h2><p>This website is for information only. It presents La Cocinita restaurant, its menu, opening hours, location and ways to contact us and book a table. No sales or contracts are made through the website.</p><h2>3. Terms of use</h2><p>Access to this website is free of charge. Anyone who uses it becomes a user and accepts this legal notice. Users agree to use the content appropriately and not for unlawful purposes or in bad faith.</p><h2>4. Intellectual and industrial property</h2><p>The texts, photographs, logos, design and other content of this website belong to the owner or are used with permission. They may not be reproduced, distributed or modified without express permission, except for personal and private use.</p><h2>5. Disclaimer</h2><p>The owner tries to keep the information on the website (menu, prices, opening hours) up to date, but it may contain errors or omissions. Dishes and prices may vary with the season and the market; the information given at the restaurant always prevails. The owner is not liable for any damage arising from the use of the website or for the content of linked third-party sites (social networks, Google Maps, WhatsApp).</p><h2>6. Links</h2><p>Links to third-party sites are provided for convenience only. The owner does not control those sites and is not responsible for them or their policies.</p><h2>7. Governing law</h2><p>This legal notice is governed by Spanish law. Any dispute will be submitted to the competent courts in accordance with the applicable legislation.</p>"
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "html": "<p class=\"legal-note\">This English version is provided for information only. In case of discrepancy, the Spanish version prevails.</p><h2>1. Data controller</h2><ul><li><strong>Controller:</strong> {{legal.titular}}</li><li><strong>Tax ID (NIF/CIF):</strong> {{legal.nif}}</li><li><strong>Address:</strong> {{legal.domicilio}}</li><li><strong>Email:</strong> {{legal.email}}</li></ul><h2>2. What data we process</h2><p>This website <strong>has no forms</strong> and does not collect personal data by itself. We only process your data if you contact us:</p><ul><li><strong>By phone:</strong> your name, phone number and booking details (date, time, number of people, and any notes such as allergies if you tell us about them).</li><li><strong>By WhatsApp:</strong> also your number and the content of your messages. WhatsApp is a service of WhatsApp Ireland Ltd. (Meta) with its own privacy policy.</li><li><strong>By email:</strong> your email address and the content of your message.</li></ul><h2>3. Purpose</h2><p>To manage your booking or answer your enquiry. We do not create profiles or send advertising.</p><h2>4. Legal basis</h2><p>Taking steps at your request before entering into a contract (managing the booking) and your consent when you contact us, under Article 6(1)(b) and 6(1)(a) of Regulation (EU) 2016/679 (GDPR). Allergy information is only processed with your explicit consent, so that we can serve you safely.</p><h2>5. Retention</h2><p>Booking data is kept for as long as needed to manage the booking and for no more than [EDITAR] 30 days after the booking date, unless the law requires otherwise.</p><h2>6. Recipients</h2><p>We do not share your data with third parties unless required by law. Some technology providers (telephone, WhatsApp, email, and GitHub Pages web hosting) may access it as data processors or as part of their own services.</p><h2>7. QR table service</h2><p>The table service app used inside the restaurant does not ask for personal data: requests are only linked to the table number and are used to serve you during your visit.</p><h2>8. Your rights</h2><p>You can exercise your rights of access, rectification, erasure, objection, restriction of processing and data portability by writing to {{legal.email}}. If you believe we have not handled your data properly, you can complain to the Spanish Data Protection Agency (www.aepd.es).</p><h2>9. Browsing data</h2><p>The website's server (GitHub Pages) may log technical data such as your IP address to keep the service secure. Please also see our <a href=\"cookies.html\">Cookie policy</a>.</p>"
+    },
+    "cookies": {
+      "title": "Cookie policy",
+      "html": "<p class=\"legal-note\">This English version is provided for information only. In case of discrepancy, the Spanish version prevails.</p><h2>1. What are cookies?</h2><p>Cookies and similar technologies (such as the browser's local storage) are small files that a website stores on your device to remember information about your visit.</p><h2>2. What we use on this website</h2><p>This website <strong>does not use analytics or advertising cookies</strong>.</p><table><thead><tr><th>Name</th><th>Type</th><th>Purpose</th><th>Duration</th></tr></thead><tbody><tr><td>lc_lang</td><td>Technical (local storage, first-party)</td><td>Remembers the language you chose</td><td>Until you delete it</td></tr><tr><td>lc_cookies</td><td>Technical (local storage, first-party)</td><td>Remembers your cookie choice</td><td>12 months</td></tr><tr><td>Google cookies</td><td>Third-party (optional)</td><td>Show the interactive Google Maps map. They only load if you accept them.</td><td>Set by Google</td></tr></tbody></table><p>The PDF menu is displayed with the PDF.js library, which is downloaded from the cdnjs service (Cloudflare). This service does not set cookies, although it technically receives your IP address in order to deliver the file.</p><h2>3. How to accept, reject or change your choice</h2><p>On your first visit you will see a notice with Accept, Reject and Settings buttons. You can change your choice at any time using the “Cookie settings” link in the footer.</p><p>You can also delete or block cookies in your browser settings (Chrome, Firefox, Safari, Edge…). If you block technical storage, the website will still work, but it will not remember your language.</p><h2>4. Third-party cookies</h2><p>Google Maps is a service of Google LLC. You can find out how Google uses cookies at policies.google.com/technologies/cookies.</p><h2>5. Changes</h2><p>We may update this policy if the services on the website change. The date of the last update is shown at the end of this page.</p>"
+    }
+  }
+}

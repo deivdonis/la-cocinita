@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [EDITAR] Si conectas un dominio propio, cambia https://deivdonis.github.io/la-cocinita/ por tu dominio. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://deivdonis.github.io/la-cocinita/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deivdonis.github.io/la-cocinita/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deivdonis.github.io/la-cocinita/?lang=en"/>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://deivdonis.github.io/la-cocinita/servicio.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deivdonis.github.io/la-cocinita/servicio.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deivdonis.github.io/la-cocinita/servicio.html?lang=en"/>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://deivdonis.github.io/la-cocinita/carta/carta.pdf</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

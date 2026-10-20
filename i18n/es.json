@@ -1,0 +1,254 @@
+{
+  "_info": "Textos en castellano. Los marcados como [EDITAR] en el README son de ejemplo. {{...}} se rellena con los datos de js/config.js.",
+
+  "meta": {
+    "home": {
+      "title": "La Cocinita · Cocina tradicional española en Madrid",
+      "description": "Casa de comidas en Madrid: cocido madrileño, guisos de cuchara, croquetas caseras y postres de siempre. Consulta la carta, el horario y reserva por teléfono o WhatsApp."
+    },
+    "service": {
+      "title": "Cómo funciona nuestro servicio en mesa · La Cocinita",
+      "description": "Escanea el QR de tu mesa y llama al camarero, consulta la carta, envía peticiones o pide la cuenta desde tu móvil, sin instalar nada."
+    },
+    "legal": {
+      "title": "Aviso legal · La Cocinita",
+      "description": "Aviso legal e información del titular del sitio web de La Cocinita."
+    },
+    "privacy": {
+      "title": "Política de privacidad · La Cocinita",
+      "description": "Cómo trata La Cocinita los datos personales conforme al RGPD."
+    },
+    "cookies": {
+      "title": "Política de cookies · La Cocinita",
+      "description": "Qué cookies y almacenamiento local usa la web de La Cocinita y cómo configurarlos."
+    }
+  },
+
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "newWindow": "(se abre en una ventana nueva)"
+  },
+
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "menu": "La carta",
+    "service": "Servicio en mesa",
+    "gallery": "Galería",
+    "hours": "Horario",
+    "location": "Ubicación",
+    "book": "Reservar",
+    "open": "Abrir menú",
+    "close": "Cerrar menú",
+    "lang": "Idioma",
+    "main": "Navegación principal"
+  },
+
+  "hero": {
+    "kicker": "Casa de comidas · Madrid",
+    "lead": "Cocina tradicional española a fuego lento, como la de casa. Guisos de cuchara, producto de mercado y sobremesa sin prisas.",
+    "ctaMenu": "Ver la carta",
+    "ctaCall": "Reservar por teléfono",
+    "imgAlt": "Comedor de La Cocinita con mesas vestidas con mantel de cuadros"
+  },
+
+  "about": {
+    "eyebrow": "Sobre nosotros",
+    "title": "Una cocina con recetas de toda la vida",
+    "p1": "La Cocinita nació en un pequeño local del Madrid de los Austrias con una idea sencilla: cocinar como lo hacían nuestras abuelas. Los garbanzos se ponen en remojo la víspera, el sofrito no tiene prisa y los guisos se hacen en cazuela de barro.",
+    "p2": "Compramos cada mañana en el mercado y trabajamos con productores de Madrid y alrededores. La carta cambia con la temporada, pero hay platos que no se tocan: el cocido de los miércoles, las croquetas de jamón y la torrija de la casa.",
+    "p3": "Somos una casa de comidas de barrio: mantel de cuadros, azulejo en las paredes y un trato cercano. Ven con hambre y sin reloj.",
+    "imgAlt": "Cazuela de barro al fuego en la cocina de La Cocinita",
+    "values": {
+      "v1t": "Producto de mercado",
+      "v1d": "Compramos cada día y cocinamos según la temporada.",
+      "v2t": "Fuego lento",
+      "v2d": "Guisos y fondos hechos con tiempo, sin atajos.",
+      "v3t": "Trato de casa",
+      "v3d": "Un comedor de barrio donde todo el mundo se siente en casa."
+    }
+  },
+
+  "daily": {
+    "title": "Menú del día",
+    "when": "De martes a viernes, a mediodía",
+    "includes": "Primero, segundo, postre, pan y bebida",
+    "price": "{{menuDelDia.precio}}",
+    "note": "Pregunta por los platos de hoy"
+  },
+
+  "menu": {
+    "eyebrow": "La carta",
+    "title": "Nuestra carta",
+    "lead": "Consulta la carta completa aquí mismo. Puedes pasar páginas, ampliar y descargarla.",
+    "prev": "Página anterior",
+    "next": "Página siguiente",
+    "zoomIn": "Ampliar",
+    "zoomOut": "Reducir",
+    "fit": "Ajustar al ancho",
+    "page": "Página {{n}} de {{total}}",
+    "download": "Descargar carta",
+    "loading": "Cargando la carta…",
+    "soon": "Carta disponible próximamente",
+    "soonDetail": "Mientras tanto, llámanos y te contamos los platos del día.",
+    "error": "No se ha podido mostrar la carta aquí.",
+    "openPdf": "Abrir la carta en PDF",
+    "viewerLabel": "Visor de la carta en PDF",
+    "swipeHint": "Desliza para pasar de página"
+  },
+
+  "serviceTeaser": {
+    "eyebrow": "En el restaurante",
+    "title": "Pide desde tu mesa con el móvil",
+    "lead": "Escanea el código QR de tu mesa para llamar al camarero, ver la carta, enviar peticiones o pedir la cuenta. Sin descargar nada y siempre con el servicio de toda la vida si lo prefieres.",
+    "cta": "Cómo funciona el servicio en mesa"
+  },
+
+  "gallery": {
+    "eyebrow": "Galería",
+    "title": "Para ir abriendo el apetito",
+    "lead": "Algunos de nuestros platos y rincones. Pulsa una foto para verla en grande.",
+    "open": "Ampliar foto: ",
+    "alt": {
+      "cocido": "Cocido madrileño servido en dos vuelcos",
+      "croquetas": "Croquetas caseras de jamón ibérico",
+      "tortilla": "Tortilla de patatas jugosa recién hecha",
+      "comedor": "Comedor tradicional con azulejos y mesas de madera",
+      "callos": "Callos a la madrileña en cazuela de barro",
+      "torrija": "Torrija casera con canela"
+    }
+  },
+
+  "lightbox": {
+    "close": "Cerrar",
+    "prev": "Foto anterior",
+    "next": "Foto siguiente",
+    "counter": "{{n}} de {{total}}",
+    "label": "Foto ampliada"
+  },
+
+  "hours": {
+    "eyebrow": "Horario",
+    "title": "Cuándo encontrarnos",
+    "lead": "La cocina cierra media hora antes del cierre del comedor.",
+    "closed": "Cerrado",
+    "today": "Hoy",
+    "days": {
+      "mon": "Lunes",
+      "tue": "Martes",
+      "wed": "Miércoles",
+      "thu": "Jueves",
+      "fri": "Viernes",
+      "sat": "Sábado",
+      "sun": "Domingo"
+    }
+  },
+
+  "location": {
+    "eyebrow": "Ubicación",
+    "title": "Dónde estamos",
+    "lead": "En pleno barrio de La Latina, a cinco minutos a pie de la Plaza Mayor.",
+    "addressLabel": "Dirección",
+    "transport": "Metro La Latina (L5) · Autobuses 17, 18, 23, 31, 35, 50 y 65",
+    "mapPlaceholder": "El mapa de Google Maps solo se carga si aceptas las cookies de terceros.",
+    "openMaps": "Ver en Google Maps",
+    "loadMap": "Aceptar y cargar el mapa",
+    "mapTitle": "Mapa de la ubicación de La Cocinita"
+  },
+
+  "book": {
+    "eyebrow": "Reservas",
+    "title": "Reserva tu mesa",
+    "lead": "Las reservas se hacen solo por teléfono o WhatsApp. Te confirmamos al momento.",
+    "call": "Llamar al {{contacto.telefono}}",
+    "callShort": "Llamar",
+    "whatsapp": "Escribir por WhatsApp",
+    "waMessage": "Hola, me gustaría reservar mesa en La Cocinita para ___ personas el día ___ a las ___.",
+    "note": "Para grupos de más de 10 personas, llámanos con unos días de antelación."
+  },
+
+  "footer": {
+    "tagline": "Cocina tradicional española en el corazón de Madrid.",
+    "contact": "Contacto",
+    "follow": "Síguenos",
+    "legalNav": "Información legal",
+    "legal": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "cookieSettings": "Configurar cookies",
+    "rights": "Todos los derechos reservados."
+  },
+
+  "cookies": {
+    "title": "Usamos cookies",
+    "text": "Esta web solo usa el almacenamiento técnico imprescindible para recordar tu idioma y tu elección de cookies. Si lo aceptas, también cargaremos el mapa de Google Maps, que puede instalar cookies de terceros.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "configure": "Configurar",
+    "save": "Guardar preferencias",
+    "policy": "Más información en la Política de cookies",
+    "panelTitle": "Configurar cookies",
+    "necessary": "Técnicas (siempre activas)",
+    "necessaryDesc": "Guardan tu idioma y tus preferencias de cookies en este navegador. No se envían a nadie.",
+    "maps": "Mapas de terceros (Google Maps)",
+    "mapsDesc": "Permiten mostrar el mapa interactivo integrado. Google puede usar cookies propias para ello."
+  },
+
+  "service": {
+    "eyebrow": "Servicio en mesa",
+    "title": "Cómo funciona nuestro servicio en mesa",
+    "lead": "En La Cocinita puedes usar el móvil para hablar con el equipo de sala sin levantar la mano. Es muy fácil, gratuito y no hay que instalar nada.",
+    "onlyInside": "La aplicación solo funciona dentro del restaurante, conectada a nuestra Wi-Fi. No hay enlaces ni descargas desde esta web.",
+    "stepLabel": "Paso",
+    "step1t": "Conéctate a la Wi-Fi del restaurante",
+    "step1d": "Encontrarás el nombre de la red y la contraseña en la tarjeta de tu mesa. Si no la ves, pídesela al camarero.",
+    "step2t": "Escanea el código QR de tu mesa",
+    "step2d": "Abre la cámara del móvil y apunta al código QR. Cada mesa tiene el suyo, así sabemos dónde estás.",
+    "step3t": "Se abre la aplicación del restaurante",
+    "step3d": "Se abre directamente en el navegador del móvil. No hay que descargar nada ni crear ninguna cuenta.",
+    "step4t": "Pide lo que necesites",
+    "step4d": "Llama al camarero, consulta la carta, envía mensajes o peticiones escribiendo o por voz, y pide la cuenta cuando quieras.",
+    "step5t": "El camarero recibe tu aviso al instante",
+    "step5d": "Tu petición llega al momento al equipo de sala, que se acerca a tu mesa en cuanto puede.",
+    "featuresTitle": "Desde la aplicación puedes…",
+    "f1": "Llamar al camarero",
+    "f2": "Ver la carta",
+    "f3": "Enviar mensajes o peticiones, escribiendo o por voz",
+    "f4": "Pedir la cuenta",
+    "faqTitle": "Preguntas frecuentes",
+    "q1": "¿Necesito descargar algo?",
+    "a1": "No. La aplicación se abre en el navegador de tu móvil al escanear el código QR. No hay que instalar nada ni registrarse.",
+    "q2": "¿Es obligatorio usarlo?",
+    "a2": "En absoluto. Es solo una ayuda más. Puedes llamar al camarero como siempre y te atenderemos igual de bien.",
+    "q3": "¿Mis datos están seguros?",
+    "a3": "Sí. No te pedimos nombre, teléfono ni ningún dato personal. Las peticiones solo se usan para atender tu mesa durante tu visita y la aplicación funciona dentro de la red del restaurante.",
+    "q4": "¿Y si no tengo móvil o no me funciona?",
+    "a4": "No pasa nada: el servicio tradicional sigue disponible siempre. Nuestro equipo de sala estará pendiente de tu mesa como de cualquier otra.",
+    "q5": "¿Puedo hacer el pedido de la comida desde la aplicación?",
+    "a5": "Puedes consultar la carta y enviar peticiones, y el camarero vendrá a tu mesa para tomar nota y aconsejarte.",
+    "back": "Volver al inicio",
+    "ctaTitle": "¿Te esperamos?",
+    "ctaText": "Reserva tu mesa por teléfono o WhatsApp."
+  },
+
+  "common": {
+    "backHome": "Volver al inicio",
+    "updated": "Última actualización: {{legal.actualizado}}",
+    "noscript": "Esta web necesita JavaScript para mostrar sus textos. Actívalo en tu navegador o llámanos al {{contacto.telefono}}."
+  },
+
+  "legal": {
+    "aviso": {
+      "title": "Aviso legal",
+      "html": "<h2>1. Datos identificativos</h2><p>En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los datos del titular de este sitio web:</p><ul><li><strong>Titular:</strong> {{legal.titular}}</li><li><strong>NIF/CIF:</strong> {{legal.nif}}</li><li><strong>Domicilio:</strong> {{legal.domicilio}}</li><li><strong>Correo electrónico:</strong> {{legal.email}}</li><li><strong>Teléfono:</strong> {{contacto.telefono}}</li><li><strong>Datos registrales:</strong> {{legal.registro}}</li><li><strong>Nombre comercial:</strong> La Cocinita</li></ul><h2>2. Objeto</h2><p>Este sitio web tiene carácter informativo: presenta el restaurante La Cocinita, su carta, su horario, su ubicación y las formas de contacto y reserva. No se realizan ventas ni contrataciones a través de la web.</p><h2>3. Condiciones de uso</h2><p>El acceso a este sitio web es gratuito y atribuye la condición de usuario, que acepta este aviso legal. El usuario se compromete a hacer un uso adecuado de los contenidos y a no emplearlos para actividades ilícitas o contrarias a la buena fe.</p><h2>4. Propiedad intelectual e industrial</h2><p>Los textos, fotografías, logotipos, diseño y demás contenidos de esta web son propiedad del titular o se usan con autorización. Queda prohibida su reproducción, distribución o transformación sin autorización expresa, salvo para uso personal y privado.</p><h2>5. Exclusión de responsabilidad</h2><p>El titular procura que la información de la web (carta, precios, horarios) esté actualizada, pero puede contener errores u omisiones. Los precios y platos de la carta pueden variar según la temporada y el mercado; prevalece siempre la información facilitada en el restaurante. El titular no se hace responsable de los daños derivados del uso de la web ni del contenido de sitios de terceros enlazados (redes sociales, Google Maps, WhatsApp).</p><h2>6. Enlaces</h2><p>Los enlaces a sitios de terceros se ofrecen solo como ayuda. El titular no controla ni responde de dichos sitios ni de sus políticas.</p><h2>7. Legislación aplicable</h2><p>Este aviso legal se rige por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales que correspondan conforme a la normativa vigente.</p>"
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "html": "<h2>1. Responsable del tratamiento</h2><ul><li><strong>Responsable:</strong> {{legal.titular}}</li><li><strong>NIF/CIF:</strong> {{legal.nif}}</li><li><strong>Domicilio:</strong> {{legal.domicilio}}</li><li><strong>Correo electrónico:</strong> {{legal.email}}</li></ul><h2>2. Qué datos tratamos</h2><p>Esta web <strong>no tiene formularios</strong> y no recoge datos personales por sí misma. Solo trataremos tus datos si te pones en contacto con nosotros:</p><ul><li><strong>Por teléfono:</strong> nombre, teléfono y detalles de la reserva (fecha, hora, número de personas, observaciones como alergias si nos las comunicas).</li><li><strong>Por WhatsApp:</strong> además, tu número y el contenido de los mensajes. WhatsApp es un servicio de WhatsApp Ireland Ltd. (Meta) con su propia política de privacidad.</li><li><strong>Por correo electrónico:</strong> tu dirección y el contenido del mensaje.</li></ul><h2>3. Finalidad</h2><p>Gestionar tu reserva o responder a tu consulta. No elaboramos perfiles ni enviamos publicidad.</p><h2>4. Base jurídica</h2><p>La aplicación de medidas precontractuales a petición del interesado (gestionar la reserva) y el consentimiento al contactarnos, según el artículo 6.1.b) y 6.1.a) del Reglamento (UE) 2016/679 (RGPD). Los datos de alergias solo se tratan con tu consentimiento explícito y para atenderte de forma segura.</p><h2>5. Conservación</h2><p>Los datos de reserva se conservan el tiempo necesario para gestionarla y, como máximo, [EDITAR] 30 días después de la fecha de la reserva, salvo obligación legal.</p><h2>6. Destinatarios</h2><p>No cedemos tus datos a terceros salvo obligación legal. Algunos proveedores tecnológicos (telefonía, WhatsApp, correo electrónico, alojamiento web GitHub Pages) pueden acceder a ellos como encargados del tratamiento o en el marco de sus propios servicios.</p><h2>7. Servicio en mesa con QR</h2><p>La aplicación de servicio en mesa que se usa dentro del restaurante no pide datos personales: las peticiones se asocian solo al número de mesa y se usan para atenderte durante tu visita.</p><h2>8. Tus derechos</h2><p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a {{legal.email}}. Si consideras que no hemos tratado bien tus datos, puedes reclamar ante la Agencia Española de Protección de Datos (www.aepd.es).</p><h2>9. Datos de navegación</h2><p>El servidor de la web (GitHub Pages) puede registrar datos técnicos como la dirección IP para garantizar la seguridad del servicio. Consulta también nuestra <a href=\"cookies.html\">Política de cookies</a>.</p>"
+    },
+    "cookies": {
+      "title": "Política de cookies",
+      "html": "<h2>1. ¿Qué son las cookies?</h2><p>Las cookies y tecnologías similares (como el almacenamiento local del navegador) son pequeños archivos que una web guarda en tu dispositivo para recordar información sobre tu visita.</p><h2>2. Qué usamos en esta web</h2><p>Esta web <strong>no usa cookies de análisis ni de publicidad</strong>.</p><table><thead><tr><th>Nombre</th><th>Tipo</th><th>Finalidad</th><th>Duración</th></tr></thead><tbody><tr><td>lc_lang</td><td>Técnica (almacenamiento local, propia)</td><td>Recordar el idioma que has elegido</td><td>Hasta que la borres</td></tr><tr><td>lc_cookies</td><td>Técnica (almacenamiento local, propia)</td><td>Recordar tu elección sobre las cookies</td><td>12 meses</td></tr><tr><td>Cookies de Google</td><td>De terceros (opcional)</td><td>Mostrar el mapa interactivo de Google Maps. Solo se cargan si las aceptas.</td><td>Según Google</td></tr></tbody></table><p>La carta en PDF se muestra con la librería PDF.js, que se descarga desde el servicio cdnjs (Cloudflare). Este servicio no instala cookies, aunque recibe técnicamente tu dirección IP para entregar el archivo.</p><h2>3. Cómo aceptar, rechazar o cambiar tu elección</h2><p>Al entrar por primera vez verás un aviso con los botones Aceptar, Rechazar y Configurar. Puedes cambiar tu elección en cualquier momento desde el enlace «Configurar cookies» del pie de página.</p><p>También puedes borrar o bloquear las cookies desde la configuración de tu navegador (Chrome, Firefox, Safari, Edge…). Si bloqueas el almacenamiento técnico, la web seguirá funcionando, pero no recordará tu idioma.</p><h2>4. Cookies de terceros</h2><p>Google Maps es un servicio de Google LLC. Puedes consultar cómo usa Google las cookies en policies.google.com/technologies/cookies.</p><h2>5. Cambios</h2><p>Podemos actualizar esta política si cambian los servicios de la web. La fecha de la última actualización figura al final de esta página.</p>"
+    }
+  }
+}
